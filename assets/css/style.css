@@ -42,6 +42,10 @@ body {
 .flex_child{
 	width: 46%;
 }
+.headerSize{
+	font-size: 35px;
+	color: #f49656 !important;
+}
 .division{
 	width: 1px;
 	height: auto;
