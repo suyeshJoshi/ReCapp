@@ -483,6 +483,9 @@ section.small_pb,
 	width: 120px;
 	font-size: 15px;
 }
+.headerSize{
+	font-size: 21px;
+}
 .banner_content h2 {
 	font-size: 30px;
 	margin-bottom: 15px;
