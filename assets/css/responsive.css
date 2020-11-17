@@ -205,6 +205,10 @@ section.small_pb,
   max-width: 991px
 ---------------------------------------------------*/
 @media only screen and (max-width: 991px) {
+.accordions__button:hover {
+	padding-right: 0px;
+}
+
 .padding_eight_all {
 	padding: 5%;
 }

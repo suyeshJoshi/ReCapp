@@ -296,15 +296,17 @@ PAGE JS
 	/*===================================*
 	09. SCROLLUP JS
 	*===================================*/
-	$(window).scroll(function() {
-		if ($(this).scrollTop() > 150) {
-			$('.scrollup').fadeIn();
-		} else {
-			$('.scrollup').fadeOut();
-		}
-	});
 	
-
+	
+	if ($(window).width() <= 768) {
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > 150) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+		});
+	  }
 	
 	/*===================================*
 	10. POPUP JS

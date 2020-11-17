@@ -42,10 +42,6 @@ body {
 .flex_child{
 	width: 46%;
 }
-.headerSize{
-	font-size: 35px;
-	color: #f49656 !important;
-}
 .division{
 	width: 1px;
 	height: auto;
@@ -141,12 +137,16 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 }
+.headerSize{
+	font-size: 35px;
+	color: #f49656 !important;
+}
 h1,h2,h3,h4,h5,h6 {
 	color: #292b2c;
 	font-family: 'Rubik', sans-serif;
 }
 p {
-	color:#888888;
+	color:#616161;
 }
 a {
 	color: #292b2c;
@@ -4586,4 +4586,10 @@ blockquote::before {
   .rich-text p {
 	margin-top: 30px;
   }
-  
+.orangeClr{
+	color: #f49656;
+}
+.overviewBold{
+	font-weight: 500;
+	color: rgb(97, 97, 97) !important;
+}
